@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `ESS` (
+id bigint(20) NOT NULL auto_increment,
+date datetime default NULL,
+pid bigint(20) default NULL,
+user varchar(255) default NULL,
+age varchar(255) default NULL,
+groupname varchar(255) default NULL,
+authorized tinyint(4) default NULL,
+activity tinyint(4) default NULL,
+ESS_A_V1_0_1 varchar(255),
+ESS_A_V1_0_2 varchar(255),
+ESS_A_V1_0_3 varchar(255),
+ESS_A_V1_0_4 varchar(255),
+ESS_A_V1_0_5 varchar(255),
+ESS_A_V1_0_6 varchar(255),
+ESS_A_V1_0_7 varchar(255),
+ESS_A_V1_0_8 varchar(255),
+ess_score varchar(255),
+PRIMARY KEY (id)
+) ENGINE=InnoDB;
